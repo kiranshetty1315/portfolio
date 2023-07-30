@@ -10,7 +10,7 @@ Welcome to my portfolio! This website showcases my creative works and profession
 
 **Accessing the Portfolio:**
 
-To view my portfolio online, visit [www.kiranshetty.netlify.app]([kiranshetty.netlify.app](https://kiranshetty.netlify.app/)).
+To view my portfolio online, visit [www.kiranshetty.netlify.app](https://kiranshetty.netlify.app/).
 
 **Technologies Used:**
 
