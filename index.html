@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kiran shetty's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/551eb806e4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id ="header">
+        <div class="container">
+            <nav>
+                <img src="IMAGES/logokinnu.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi I'M <span> KIRAN SHETTY </span><br> FROM INDIA</h1>
+            </div>
+        </div>
+
+    </div>
+ <!-- -----------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMAGES/KIRAN1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Meet an enthusiastic Frontend Developer with a true passion for crafting captivating web experiences. Proficient in HTML and CSS, their creativity shines through in every project they tackle. Embracing challenges with a collaborative spirit, they thrive in team environments, valuing effective communication and problem-solving. Their creative thinking leads to innovative solutions and unique designs that engage users and elevate brands. With a dedication to continuous learning, this developer is eager to contribute their skills to create seamless and visually appealing websites that leave a lasting impression.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links "onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design web/App Interface</li>
+                            <li><span>Web Developement</span><br>Web app Developement</li>
+                            <li><span>App Developement</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Front end development</span><br>Online course in Front end development in Great Learning</li>
+                            <li><span> Web Development Intern</span><br>Bharat Intern</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="education">
+                        <ul>
+                            <li><span>A J Institute of Engineering and Technology</span><br>B. E. in Information Science & Engineering (Pursuing) - 2024</li>
+                            <li><span>Venkataramanswamy Pre-University College</span><br>Pre University College (PUC) - 2020 </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  --------services------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developement</h2>
+                    <p>Experience personalized web development services, meticulously crafted to align with your business objectives and drive exceptional user engagement. As a solo developer, I'm dedicated to delivering impactful online solutions that set your brand apart. Let's elevate your digital presence together!</p>
+                    <a href="https://www.linkedin.com/in/kiran-shetty-a25a55236/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Andriod App Developement</h2>
+                    <p>Tailored Android app development with Java/Kotlin. Achieve seamless functionality, stunning design, and optimal performance. Transform your ideas into an exceptional mobile experience.</p>
+                    <a href="https://www.linkedin.com/in/kiran-shetty-a25a55236/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Web Design</h2>
+                    <p>Captivating web design services bringing your vision to life. Creativity and expertise crafting exquisite interfaces, ensuring seamless user experiences that leave a lasting impression. Elevate your online presence today!</p>
+                    <a href="https://www.linkedin.com/in/kiran-shetty-a25a55236/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------portfolio-------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="IMAGES/phone2.jpg">
+                    <div class="layer">
+                        <h3>Furniture Shoping App</h3>
+                        <p>MyFurniture: The ultimate mobile app for furniture shopping. Discover a vast selection of stylish and affordable pieces, easy browsing, secure transactions, and personalized recommendations. Furnish your dream space effortlessly.</p>
+                        <a href="https://www.linkedin.com/in/kiran-shetty-a25a55236/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="IMAGES/img2.jpeg">
+                    <div class="layer">
+                        <h3>Toll Bill Generator</h3>
+                        <p>Toll Bill Generator: A software application that computes toll charges based on vehicle details and distance traveled, producing accurate bills for tollway users.</p>
+                        <a href="https://www.linkedin.com/in/kiran-shetty-a25a55236/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="IMAGES/photo1.jpg">
+                    <div class="layer">
+                        <h3>Online Shoping Site</h3>
+                        <p>Convenient and user-friendly online shopping site offering a wide range of products, secure payment options, fast delivery, and excellent customer service for a seamless shopping experience.</p>
+                        <a href="https://www.linkedin.com/in/kiran-shetty-a25a55236/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-----------contact------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p ><i class="fa-solid fa-envelope"></i>kiranshetty1315@gmail.com</p>
+                    <br>
+                    <p><i class="fa-solid fa-phone"></i>8971708423</p>
+                    <div class="socail-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100009050871527"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/kirankinnu29?igshid=ZDc4ODBmNjlmNQ=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kiran-shetty-a25a55236/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/Kinnu2029?s=09"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="IMAGES/KIRANSHETTYCV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @kirankinnu<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyJYrp-QtOBw4qD2vR76GRI86qr6_xnUekZFplVuN8GgVYEiGpQfO8Ey99Lqx51bZji/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
