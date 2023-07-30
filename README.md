@@ -37,7 +37,7 @@ I appreciate feedback and collaboration. If you find any issues or have suggesti
 
 **Contact:**
 
-Let's connect! Reach out to me via email at [contact@kiranshetty.com](mailto:kiranshetty1315@gmail.com) or find me on LinkedIn 4.
+Let's connect! Reach out to me via email at [contact@kiranshetty.com](mailto:kiranshetty1315@gmail.com) or find me on LinkedIn [here](www.linkedin.com/in/kiran-shetty2029).
 
 Thank you for visiting my portfolio. I hope you enjoy the experience!
 
