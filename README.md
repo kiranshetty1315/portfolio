@@ -43,4 +43,4 @@ Thank you for visiting my portfolio. I hope you enjoy the experience!
 
 **License:**
 
-This project is licensed under the MIT License. Feel free to reuse any part of this code for your own portfolio. Attribution is appreciated but not required.
+Feel free to reuse any part of this code for your own portfolio.
