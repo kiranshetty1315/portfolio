@@ -33,7 +33,7 @@ To view my portfolio online, visit [www.kiranshetty.netlify.app](https://kiransh
 
 **Contributing:**
 
-I appreciate feedback and collaboration. If you find any issues or have suggestions, please create an issue or submit a pull request on [GitHub](https://github.com/kiranshetty/portfolio).
+I appreciate feedback and collaboration. If you find any issues or have suggestions, please create an issue or submit a pull request on [GitHub](https://github.com/kiranshetty1315/portfolio).
 
 **Contact:**
 
